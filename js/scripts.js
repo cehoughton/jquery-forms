@@ -3,6 +3,7 @@ $(document).ready(function() {
   $("form").submit(function(event) { //when form is submitted do something
     event.preventDefault(); //prevents default action
     $("p").fadeIn();
+    $("p").addClass("green-background");
     var input = $("#animal_in").val(); //set the varible input from animal in
     var input2 = $("#name_in").val();
     var input3 = $("#verb_in").val();
